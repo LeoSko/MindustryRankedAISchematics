@@ -9,12 +9,13 @@ Schematics that AI uses - all of them
 - Give it a simple name, reflecting:
   - First number in the name MUST reflect intended difficilty of the AI to use this schematic, ranging `from [00 to 99]`, **keep leading zeros**
     - Format can be either a single number `43`, or a period `43-52`
-      - In case of period, it will be adjusted to match current schematic formula. You may expect your schematic to be chosed by bot at a certain level of difficulty.
-    - To understand the scale, download some schematics and compare your to others. See the table of difficulties below.
+      - In case of period, it will be adjusted to match current schematic formula. You may expect your schematic to be chosen by bot at a certain level of difficulty.
+    - To understand the scale, download some schematics and compare your to others. Also, see the table of difficulties below.
   - The rest of the name is freestyle, but try to write
     - units it produces
     - if no units, turrets it has
     - it no turrets, whatever important it has
+    - if nothing important, this is probably schematic for Noob-Easy AI - specify at least some meaningful name
   - Good name example: `16-25 Shard Core flares.msch`
   - Bad name example: `dsafasdf 99.msch`
 - Filename MUST match the name of schematic and have **msch** extension.
