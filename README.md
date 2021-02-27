@@ -23,10 +23,10 @@ Schematics that AI uses - all of them
 Name | Difficulty range | Schematics range | Growth rate (time/difficulty)
 ---- | ---------------- | ---------------- | -----------------------------
 Noob | 0-16 | 00-22 | 04 at 60 minutes
-Easy | 5-20 | 00-27 | 12 at 30 minutes
-Normal | 10-40 | 04-49 | 22 at 20 minutes
-Hard | 16-65 | 10-71 | 40 at 18 minutes
-Extreme | 20-85 | 13-98 | 52 at 15 minutes
+Easy | 5-20 | 00-27 | 12 at 45 minutes
+Normal | 10-40 | 04-49 | 22 at 30 minutes
+Hard | 16-65 | 10-71 | 35 at 20 minutes
+Extreme | 20-85 | 13-98 | 52 at 18 minutes
 
 * `Difficulty` growth rate is similar to function `- 1 / (x + 1) + 1`, where `x` is time.
 * `Schematics` are chosen using normal distribution with `mean=Difficulty`, `sigma=4` with hard cap range of `Difficulty / 10 + 5`.
